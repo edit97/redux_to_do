@@ -1,0 +1,40 @@
+.toDoList {
+    background: white;
+    border-radius: 6px;
+    width: 60%;
+    max-width: 600px;
+    margin: 40px auto;
+}
+
+.inputWrapper {
+    display: flex;
+    padding: 26px;
+}
+
+.inputWrapper input {
+    width: calc(100% - 80px);
+    height: 36px;
+    background: white;
+    border: 1px solid #eceff1;
+    border-right: 0;
+    padding: 0 10px;
+}
+
+.inputWrapper input:focus {
+    outline: none;
+}
+
+.inputWrapper button {
+    width: 80px;
+    background: black;
+    color: white;
+    border: 0;
+    cursor: pointer;
+}
+
+.list {
+    max-height: calc(100vh - 300px);
+    overflow: auto;
+    padding: 0 26px;
+
+}

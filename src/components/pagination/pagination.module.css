@@ -1,0 +1,23 @@
+.pagination{
+    width: 100%;
+}
+.pageIndexContent{
+    width: calc(100% - 62px);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 26px;
+}
+.pageIndex{
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background: black;
+    color: white;
+    margin: 0 10px 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    cursor: pointer;
+}
